@@ -6,6 +6,6 @@ describe('DefaultContainer', () => {
   it('should have default container text', () => {
     render(<DefaultContainer />);
 
-    expect(screen.getByText('Default Container'));
+    expect(screen.getByText('Welcome to'));
   });
 });
