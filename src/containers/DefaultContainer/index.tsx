@@ -1,13 +1,15 @@
 import Image from 'next/image'
 import * as S from './styles'
 
-const DefaultContainer = () => {
+
+
+const DefaultContainer = ({title = 'Welcome to Next.js!'}) => {
 
   return (
     <S.Wrapper>
     <main >
       <h1 >
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        {title}
       </h1>
 
       <p >
