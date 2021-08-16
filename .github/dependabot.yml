@@ -7,7 +7,7 @@ updates:
     directory: "/"
     # Verificar o registro npm para atualizações diárias (dias de semana)
     schedule:
-      interval: "monthly"
+      interval: "daily"
       time: "04:00"
     # Levantar todas as pull requests com revisores
     reviewers:
