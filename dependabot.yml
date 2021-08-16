@@ -1,0 +1,14 @@
+
+version: 1
+updates:
+  # Permitir atualizações de versão para npm
+  - package-ecosystem: "yarn"
+    # Procurar arquivos "package.json" e "lock" no diretório "root"
+    directory: "/"
+    # Verificar o registro npm para atualizações diárias (dias de semana)
+    schedule:
+      interval: "monthly"
+      time: "04:00"
+    # Levantar todas as pull requests com revisores
+    reviewers:
+      - "Meira-JH"
