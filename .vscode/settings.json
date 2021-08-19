@@ -1,7 +1,7 @@
 {
-  "editor.fontSize": 11,
-  "window.zoomLevel": 0.5,
-  "markdown.preview.fontSize": 12,
+  "editor.fontSize": 10.5,
+  "window.zoomLevel": 0.4,
+  "markdown.preview.fontSize": 11,
   "terminal.integrated.fontSize": 11,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
